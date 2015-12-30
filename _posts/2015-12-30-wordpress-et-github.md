@@ -2,19 +2,21 @@
 ID: 1073
 post_title: WordPress et Github
 author:
-  - Jérémy Levallois
-post_date: 2015-12-30 17:31:03
-post_excerpt: ""
+  - 'a:1:{i:0;s:18:"Jérémy Levallois";}'
+post_date:
+  - 2015-12-30 17:31:03
+post_excerpt:
+  - ""
 layout: post
-permalink: >
-  http://www.karganys.fr/web/wordpress-et-github/
+permalink:
+  - /web/wordpress-et-github/
 published: true
 tc-thumb-fld:
   - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
 layout_key:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 post_slider_check_key:
-  - "0"
+  - 'a:1:{i:0;s:1:"0";}'
 ---
 J'utilise quotidiennement GitHub depuis plusieurs années maintenant, tant dans le cadre professionnel ([DGtal][1], [DGtalTools][2], [ICTV][3], [PhD-Thesis][4], etc.) que personnel. **J'aime GitHub**.
 
@@ -73,7 +75,7 @@ Ensuite, après avoir commité le fichier Markdown, je me rends sur la page des 
 
 Et voila !
 
----
+* * *
 
 **Source :** [Alda Marteau-Hardi (Aldarone)][8]
 
