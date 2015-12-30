@@ -24,7 +24,13 @@ Jérémy Levallois, *28 ans*
 
 Contactez-moi à `jeremy.levallois [at] gmail.com` (remplacez **[at]** par **@** )
 
-[Mon CV][1] [Mon profil sur LinkedIn][2] [Mon profil sur Viadeo][3]
+* * *
+
+[Mon CV][1]
+
+[LinkedIn][2]
+
+[Viadeo][3]
 
  [1]: http://www.karganys.fr/wp-content/uploads/data/CV_Jeremy_Levallois_Web_Version.pdf
  [2]: http://linkedin.com/in/jeremylevallois/en
