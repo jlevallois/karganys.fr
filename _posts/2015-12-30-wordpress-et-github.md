@@ -30,12 +30,12 @@ Le plugin s'appelle [Wordpress GitHub Sync][6], et je suis actuellement en train
 
 ### Dans le panel administation de votre site Wordpress
 
-*   Allez dans `Extensions &gt; Ajouter` et recherchez **Wordpress GitHub Sync**.
+*   Allez dans `Extensions > Ajouter` et recherchez **Wordpress GitHub Sync**.
 *   Cliquez sur **Installer maintenant** pour l'installer.
 
 ### Sur votre compte GitHub
 
-*   Créez un **nouveau repository** : `Repository &gt; New`.
+*   Créez un **nouveau repository** : `Repository > New`.
 *   Nommez le comme bon vous semble (usuellement, on donne le nom du site. **karganys.fr** dans mon cas)
 *   Vous pouvez le rendre **Public** ou **Private**, selon si vous souhaitez que vos articles soient disponibles publiquement ou pas.
 *   Cliquez sur `Create repository`, le voici créé.
@@ -46,7 +46,7 @@ Le plugin s'appelle [Wordpress GitHub Sync][6], et je suis actuellement en train
 
 ### Dans le panel administation de votre site Wordpress
 
-*   Allez dans `Réglages &gt; GitHub Sync`.
+*   Allez dans `Réglages > GitHub Sync`.
 *   Dans le champ **Repository**, donnez le nom du repository que nous venons de créer (avec votre nom de compte GitHub) : `jlevallois/karganys.fr` dans mon cas.
 *   Dans le champ **Oauth Token**, rentrez le **token** que nous venons de générer.
 *   Dans le champ **Webhook Secret**, rentrez un mot de passe unique. Celui-ci va permettre à GitHub d'avertir votre site en cas de mise à jour de votre repository. Comme ça les articles se mettront automatiquement.
@@ -56,7 +56,7 @@ Le plugin s'appelle [Wordpress GitHub Sync][6], et je suis actuellement en train
 ### Sur votre compte GitHub
 
 *   Retournez sur votre **repository** nouvellement créé.
-*   Allez dans les paramètres de repository : `Settings &gt; Webhooks &amp; services`
+*   Allez dans les paramètres de repository : `Settings > Webhooks > services`
 *   Cliquez sur **Add webhook**
 *   Dans le champ **Payload URL**, collez le lien de votre **Webhook callback**
 *   Dans le champ **Secret**, collez votre mot de passe unique **Webhook Secret**
@@ -67,17 +67,13 @@ Et voilà. Si votre repository a été synchronisé, vous devriez voir un dossie
 
 ## Utilisation
 
-Ok, et maintenant ? Comment on fait. Le problème, c'est surtout cette entête qu'on ne peut pas trop connaître à l'avance, notamment l'ID ou l'URL. C'est pour cela que j'ai créé un dossier **_drafts** sur le repository où j'écris le contenu des articles. Je l'enregistre au format Markdown (`.md`) dans ce dossier, avec un nom temporaire.
+Ok, et maintenant ? Comment on fait. Le problème, c'est surtout cette entête qu'on ne peut pas trop connaître à l'avance, notamment l'ID ou l'URL. C'est pour cela que j'ai créé un dossier **_drafts** sur le repository où j'écris le contenu des articles. Je l'enregistre au format Markdown (`.md`) dans ce dossier, avec juste le nom de l'article (mettez des tirets à la place des espaces).
 
-Une fois celui-ci fini, je créé un article sur wordpress où j'y définis toutes les méta data : titre, tag, catégories, etc.
-
-Ensuite, je publie l'article vide. Cela va créé un nouveau fichier .md dans le dossier **_posts** de votre repository (`/_posts/date-nom-de-l-article.md`) contenant ces précieuses metadonnées que je dois copier.
-
-Enfin, je colle ces métadonnées en entête de mon article. Il ne reste plus qu'à le déplacer dans le dossier **_posts** en ayant supprimé l'ancienne copie.
+Ensuite, après avoir commité le fichier Markdown, je me rends sur la page des articles de mon blog. Un nouvel article est apparu, celui que je viens de créer. Je règle ensuite les derniers détails (URL, tag, catégorie, etc.) et je peux le publier.
 
 Et voila !
 
-* * *
+---
 
 **Source :** [Alda Marteau-Hardi (Aldarone)][8]
 
