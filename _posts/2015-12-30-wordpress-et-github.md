@@ -30,7 +30,7 @@ Le plugin s'appelle [Wordpress GitHub Sync][6], et je suis actuellement en train
 
 ## Installation
 
-### Dans le panel administation de votre site Wordpress
+### Dans le panel administration de votre site Wordpress
 
 *   Allez dans `Extensions > Ajouter` et recherchez **Wordpress GitHub Sync**.
 *   Cliquez sur **Installer maintenant** pour l'installer.
@@ -46,7 +46,7 @@ Le plugin s'appelle [Wordpress GitHub Sync][6], et je suis actuellement en train
 *   Dans **Select scopes**, ne laissez de cocher que `public_repo` si votre repository est en **Public**, cochez aussi `repo` s'il est en **Private**. Vous pourrez changer ça par la suite.
 *   Cliquez sur **Generate token**, et mettez le dans un coin, nous allons nous en servir par la suite.
 
-### Dans le panel administation de votre site Wordpress
+### Dans le panel administration de votre site Wordpress
 
 *   Allez dans `Réglages > GitHub Sync`.
 *   Dans le champ **Repository**, donnez le nom du repository que nous venons de créer (avec votre nom de compte GitHub) : `jlevallois/karganys.fr` dans mon cas.
