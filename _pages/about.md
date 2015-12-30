@@ -18,7 +18,9 @@ layout_key:
 post_slider_check_key:
   - "0"
 ---
-Jérémy Levallois *28 ans* **PhD Student** in Digital Geometry.
+Jérémy Levallois, *28 ans*
+
+**PhD Student** in Digital Geometry.
 
 Contactez-moi à `jeremy.levallois [at] gmail.com` (remplacez **[at]** par **@** )
 
