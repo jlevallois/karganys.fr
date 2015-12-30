@@ -73,11 +73,15 @@ Ok, et maintenant ? Comment on fait. Le problème, c'est surtout cette entête q
 
 Ensuite, après avoir commité le fichier Markdown, je me rends sur la page des articles de mon blog. Un nouvel article est apparu, celui que je viens de créer. Je règle ensuite les derniers détails (URL, tag, catégorie, etc.) et je peux le publier.
 
+## Afficher ses articles en Markdown
+
+Dernière étape, convertir ses articles du format **Markdown** en quelque chose lisible par **Wordpress**. Pour cela, j'ai installé le plugin [WP-Markdown][8]. Pensez à l'activer dans ``Réglages > Ecriture > Enable MarkDown for:``, cochez **Articles** et **Pages**. 
+
 Et voila !
 
 * * *
 
-**Source :** [Alda Marteau-Hardi (Aldarone)][8]
+**Source :** [Alda Marteau-Hardi (Aldarone)][9]
 
  [1]: https://github.com/DGtal-team/DGtal
  [2]: https://github.com/DGtal-team/DGtalTools
@@ -86,4 +90,5 @@ Et voila !
  [5]: https://stackedit.io/editor
  [6]: https://wordpress.org/plugins/wp-github-sync/
  [7]: https://github.com/settings/tokens/new
- [8]: http://aldarone.fr/ecrire-avec-vim-pusher-sur-github-publier-sur-wordpress/
+ [8]: https://wordpress.org/plugins/wp-markdown/
+ [9]: http://aldarone.fr/ecrire-avec-vim-pusher-sur-github-publier-sur-wordpress/
