@@ -3,13 +3,18 @@ ID: 1073
 post_title: WordPress et Github
 author:
   - Jérémy Levallois
-post_date: 2015-12-30 17:28:03
+post_date: 2015-12-30 17:31:03
 post_excerpt: ""
 layout: post
-permalink: http://www.karganys.fr/?p=1073
-published: false
+permalink: >
+  http://www.karganys.fr/web/wordpress-et-github/
+published: true
 tc-thumb-fld:
   - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
+layout_key:
+  - ""
+post_slider_check_key:
+  - "0"
 ---
 J'utilise quotidiennement GitHub depuis plusieurs années maintenant, tant dans
 le cadre professionnel ([DGtal](https://github.com/DGtal-team/DGtal),
