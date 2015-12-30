@@ -2,21 +2,21 @@
 ID: 1073
 post_title: WordPress et Github
 author:
-  - 'a:1:{i:0;s:18:"Jérémy Levallois";}'
+  - 'a:1:{i:0;s:36:"a:1:{i:0;s:18:"Jérémy Levallois";}";}'
 post_date:
-  - 2015-12-30 17:31:03
+  - 'a:1:{i:0;s:19:"2015-12-30 17:31:03";}'
 post_excerpt:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 layout: post
 permalink:
-  - /web/wordpress-et-github/
+  - 'a:1:{i:0;s:25:"/web/wordpress-et-github/";}'
 published: true
 tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
+  - 'a:2:{s:9:"_thumb_id";s:3:"964";s:11:"_thumb_type";s:5:"thumb";}'
 layout_key:
-  - 'a:1:{i:0;s:0:"";}'
+  - 'a:1:{i:0;s:17:"a:1:{i:0;s:0:"";}";}'
 post_slider_check_key:
-  - 'a:1:{i:0;s:1:"0";}'
+  - 'a:1:{i:0;s:18:"a:1:{i:0;s:1:"0";}";}'
 ---
 J'utilise quotidiennement GitHub depuis plusieurs années maintenant, tant dans le cadre professionnel ([DGtal][1], [DGtalTools][2], [ICTV][3], [PhD-Thesis][4], etc.) que personnel. **J'aime GitHub**.
 
@@ -75,7 +75,7 @@ Ensuite, après avoir commité le fichier Markdown, je me rends sur la page des 
 
 ## Afficher ses articles en Markdown
 
-Dernière étape, convertir ses articles du format **Markdown** en quelque chose lisible par **Wordpress**. Pour cela, j'ai installé le plugin [WP-Markdown][8]. Pensez à l'activer dans ``Réglages > Ecriture > Enable MarkDown for:``, cochez **Articles** et **Pages**. 
+Dernière étape, convertir ses articles du format **Markdown** en quelque chose lisible par **Wordpress**. Pour cela, j'ai installé le plugin [WP-Markdown][8]. Pensez à l'activer dans `Réglages > Ecriture > Enable MarkDown for:`, cochez **Articles** et **Pages**.
 
 Et voila !
 
