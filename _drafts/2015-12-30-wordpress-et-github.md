@@ -1,10 +1,16 @@
 ---
-post_title: >
-  Wordpress et Github
-author: Jérémy Levallois
+ID: 1073
+post_title: WordPress et Github
+author:
+  - Jérémy Levallois
+post_date: 2015-12-30 17:28:03
+post_excerpt: ""
 layout: post
+permalink: http://www.karganys.fr/?p=1073
+published: false
+tc-thumb-fld:
+  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
 ---
-
 J'utilise quotidiennement GitHub depuis plusieurs années maintenant, tant dans
 le cadre professionnel ([DGtal](https://github.com/DGtal-team/DGtal),
 [DGtalTools](https://github.com/DGtal-team/DGtalTools),
@@ -35,12 +41,12 @@ train de l'essayer.
 
 ### Dans le panel administation de votre site Wordpress
 
-- Allez dans ``Extensions > Ajouter`` et recherchez **Wordpress GitHub Sync**.
+- Allez dans ``Extensions &gt; Ajouter`` et recherchez **Wordpress GitHub Sync**.
 - Cliquez sur **Installer maintenant** pour l'installer.
 
 ### Sur votre compte GitHub
 
-- Créez un **nouveau repository** : ``Repository > New``.
+- Créez un **nouveau repository** : ``Repository &gt; New``.
 - Nommez le comme bon vous semble (usuellement, on donne le nom du site. **karganys.fr** dans mon cas)
 - Vous pouvez le rendre **Public** ou **Private**, selon si vous souhaitez que vos articles soient disponibles publiquement ou pas.
 - Cliquez sur ``Create repository``, le voici créé.
@@ -51,7 +57,7 @@ train de l'essayer.
 
 ### Dans le panel administation de votre site Wordpress
 
-- Allez dans ``Réglages > GitHub Sync``.
+- Allez dans ``Réglages &gt; GitHub Sync``.
 - Dans le champ **Repository**, donnez le nom du repository que nous venons de créer (avec votre nom de compte GitHub) : ``jlevallois/karganys.fr`` dans mon cas.
 - Dans le champ **Oauth Token**, rentrez le **token** que nous venons de générer.
 - Dans le champ **Webhook Secret**, rentrez un mot de passe unique. Celui-ci va permettre à GitHub d'avertir votre site en cas de mise à jour de votre repository. Comme ça les articles se mettront automatiquement.
@@ -61,7 +67,7 @@ train de l'essayer.
 ### Sur votre compte GitHub
 
 - Retournez sur votre **repository** nouvellement créé.
-- Allez dans les paramètres de repository : ``Settings > Webhooks & services``
+- Allez dans les paramètres de repository : ``Settings &gt; Webhooks &amp; services``
 - Cliquez sur **Add webhook**
 - Dans le champ **Payload URL**, collez le lien de votre **Webhook callback**
 - Dans le champ **Secret**, collez votre mot de passe unique **Webhook Secret**
