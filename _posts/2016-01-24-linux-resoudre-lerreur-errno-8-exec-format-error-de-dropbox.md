@@ -3,13 +3,18 @@ ID: 1094
 post_title: 'Linux: Résoudre l&rsquo;erreur &laquo;&nbsp;[Errno 8] Exec format error&nbsp;&raquo; de Dropbox'
 author:
   - Jérémy Levallois
-post_date: 2016-01-24 16:27:51
+post_date: 2016-01-24 16:49:50
 post_excerpt: ""
 layout: post
-permalink: http://www.karganys.fr/?p=1094
-published: false
+permalink: >
+  http://www.karganys.fr/systemes-d-exploitation/ubuntu/linux-resoudre-lerreur-errno-8-exec-format-error-de-dropbox/
+published: true
 tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
+  - 'a:2:{s:9:"_thumb_id";i:1099;s:11:"_thumb_type";s:10:"attachment";}'
+layout_key:
+  - ""
+post_slider_check_key:
+  - "0"
 ---
 Je viens de me rendre compte sur ma machine sous Linux Mint que [Dropbox][1] n'était plus lancé. Lorsque j'ai essayé de le lancer à la main avec la ligne de commande suivante : `dropbox start -i`, j'ai eu le message d'erreur suivant : `Starting Dropbox...Traceback (most recent call last):
   File "/usr/bin/dropbox", line 1535, in <module>
