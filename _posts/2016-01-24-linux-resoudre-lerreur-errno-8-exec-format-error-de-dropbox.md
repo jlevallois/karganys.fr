@@ -18,7 +18,8 @@ post_slider_check_key:
 ---
 Je viens de me rendre compte sur ma machine sous Linux Mint que [Dropbox][1] n'était plus lancé. Lorsque j'ai essayé de le lancer à la main avec la ligne de commande suivante : `dropbox start -i`, j'ai eu le message d'erreur suivant :
 
-`Starting Dropbox...Traceback (most recent call last):
+```
+Starting Dropbox...Traceback (most recent call last):
   File "/usr/bin/dropbox", line 1535, in <module>
     ret = main(sys.argv)
   File "/usr/bin/dropbox", line 1524, in main
@@ -31,15 +32,19 @@ Je viens de me rendre compte sur ma machine sous Linux Mint que [Dropbox][1] n'�
     errread, errwrite)
   File "/usr/lib/python2.7/subprocess.py", line 1327, in _execute_child
     raise child_exception
-OSError: [Errno 8] Exec format error`
+OSError: [Errno 8] Exec format error
+```
 
 ## Comment résoudre le problème
 
 *   Supprimez le répertoire d'installation de Dropbox (ne vous inquiétez pas, vos documents synchronisés ne sont pas dans ce dossier) : `rm -rf ~/.dropbox*`
 *   Lancez Dropbox : `/usr/bin/dropbox start`
-*   Vous obtiendrez le message suivant : `Starting Dropbox...
+*   Vous obtiendrez le message suivant :
+```
+Starting Dropbox...
 The Dropbox daemon is not installed!
-Run "dropbox start -i" to install the daemon`
+Run "dropbox start -i" to install the daemon
+```
 *   Lancez le deamon de Dropbox : `/usr/bin/dropbox start -i`, vous obtiendrez le message suivant : `Starting Dropbox...Done!`
 
 Et voilà !
