@@ -20,7 +20,16 @@ post_slider_check_key:
 ---
 Toujours avec Ghostscript (voir «[Compresser un fichier PDF sans (trop de) perte de qualité en ligne de commande](http://www.karganys.fr/systemes-d-exploitation/ubuntu/compresser-un-fichier-pdf-sans-trop-de-perte-de-qualite-en-ligne-de-commande/)»), je voulais concaténer plusieurs fichiers PDF en un seul, avec une subtilité : tous mes fichiers PDF ne sont pas au même format de page. Certains sont en A4, d'autres non. Je les veux tous au même format de page.
 
-https://gist.github.com/5152e32afdc8d825ec8e
+```sh
+#!/bin/sh
+
+# Concat all pdf files of the folder to output.pdf
+# All pdf files are resized to A4 format
+
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite \
+-sPAPERSIZE=a4 -dPDFFitPage \
+-sOutputFile=output.pdf *.pdf
+```
 
 Ghostscript va concaténer tous les fichiers PDF de votre dossier par ordre alphabétique de nom (vous pouvez aussi donner les fichiers à la main, changez `*.pdf` par `file1.pdf file2.pdf file3.pdf` etc.)
 
