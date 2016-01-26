@@ -1,22 +1,32 @@
 ---
 ID: 1096
-post_title: Écran noir après mise à jour de Raspbian
+post_title: >
+  Écran noir après mise à jour de
+  Raspbian
 author:
-  - Jérémy Levallois
-post_date: 2016-01-24 16:27:51
-post_excerpt: ""
+  - 'a:1:{i:0;s:18:"Jérémy Levallois";}'
+  - 'a:1:{i:0;s:18:"Jérémy Levallois";}'
+post_date:
+  - 2016-01-24 16:27:51
+post_excerpt:
+  - ""
 layout: post
-permalink: http://www.karganys.fr/?p=1096
-published: false
+permalink:
+  - /?p=1096
+published: true
 tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
+  - 'a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}'
+  - 'a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}'
+layout_key:
+  - ""
+post_slider_check_key:
+  - "0"
 ---
-
 En ce moment je m'amuse avec mon [Raspberry Pi 2](https://www.raspberrypi.org/help/what-is-a-raspberry-pi/). J'ai installé [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) dessus, une version spéciale de Debian pour Raspberry.
 
 ## Problème
 
-Après avoir mis à jour (`sudo apt-get update && sudo apt-get upgrade`) et redémarré Raspbian, aucun message d'erreur ne s'affiche pendant le démarrage mais l'écran reste noir avec le [curseur blanc](https://fr.wikipedia.org/wiki/Curseur_(interface)) qui clignote.
+Après avoir mis à jour (`sudo apt-get update &amp;&amp; sudo apt-get upgrade`) et redémarré Raspbian, aucun message d'erreur ne s'affiche pendant le démarrage mais l'écran reste noir avec le [curseur blanc](https://fr.wikipedia.org/wiki/Curseur_(interface)) qui clignote.
 
  Impossible de démarrer Raspbian.
 
