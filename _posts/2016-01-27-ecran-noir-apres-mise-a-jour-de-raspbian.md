@@ -26,7 +26,7 @@ En ce moment je m'amuse avec mon [Raspberry Pi 2](https://www.raspberrypi.org/he
 
 ## Problème
 
-Après avoir mis à jour (`sudo apt-get update &amp;&amp; sudo apt-get upgrade`) et redémarré Raspbian, aucun message d'erreur ne s'affiche pendant le démarrage mais l'écran reste noir avec le [curseur blanc](https://fr.wikipedia.org/wiki/Curseur_(interface)) qui clignote.
+Après avoir mis à jour (`sudo apt-get update && sudo apt-get upgrade`) et redémarré Raspbian, aucun message d'erreur ne s'affiche pendant le démarrage mais l'écran reste noir avec le [curseur blanc](https://fr.wikipedia.org/wiki/Curseur_(interface)) qui clignote.
 
  Impossible de démarrer Raspbian.
 
@@ -37,7 +37,7 @@ La source du problème est toute simple. Raspbian, en s'installant, partitionne 
 Je ne sais pas s'il y a une solution pour refaire fonctionner votre Raspbian. Par contre, il y a un moyen d'éviter cela lors de votre prochaine installation de Raspbian :
 
 - Installer Raspbian (comme avant).
-- Lancer la commande `sudo raspi-config` et sélectionner **exprend_rootfs** : cela aura pour conséquence d'étendre la partition de Raspbian au maximum de la capacité de la carte SD.
+- Lancer la commande `sudo raspi-config` et sélectionner **expand_rootfs** : cela aura pour conséquence d'étendre la partition de Raspbian au maximum de la capacité de la carte SD.
 
 * * *
 
