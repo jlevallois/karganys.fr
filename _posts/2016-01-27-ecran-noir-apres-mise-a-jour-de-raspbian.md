@@ -4,19 +4,19 @@ post_title: >
   Écran noir après mise à jour de
   Raspbian
 author:
-  - 'a:1:{i:0;s:18:"Jérémy Levallois";}'
-  - 'a:1:{i:0;s:18:"Jérémy Levallois";}'
+  - 'a:2:{i:0;s:36:"a:1:{i:0;s:18:"Jérémy Levallois";}";i:1;s:36:"a:1:{i:0;s:18:"Jérémy Levallois";}";}'
+  - 'a:2:{i:0;s:36:"a:1:{i:0;s:18:"Jérémy Levallois";}";i:1;s:36:"a:1:{i:0;s:18:"Jérémy Levallois";}";}'
 post_date:
-  - 2016-01-24 16:27:51
+  - 'a:1:{i:0;s:19:"2016-01-24 16:27:51";}'
 post_excerpt:
-  - ""
+  - 'a:1:{i:0;s:0:"";}'
 layout: post
 permalink:
-  - /?p=1096
+  - 'a:1:{i:0;s:8:"/?p=1096";}'
 published: true
 tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}'
-  - 'a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}'
+  - 'a:2:{i:0;s:64:"a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}";i:1;s:64:"a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}";}'
+  - 'a:2:{i:0;s:64:"a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}";i:1;s:64:"a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}";}'
 layout_key:
   - ""
 post_slider_check_key:
