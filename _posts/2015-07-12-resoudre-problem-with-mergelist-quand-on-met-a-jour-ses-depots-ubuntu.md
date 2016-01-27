@@ -10,21 +10,33 @@ permalink: >
 published: true
 tc-thumb-fld:
   - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
+  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
 layout_key:
+  - ""
   - ""
 post_slider_check_key:
   - "0"
+  - "0"
 ---
-J'ai eu la mauvaise surprise récemment en voulant installer un paquet sous Ubuntu d'obtenir une erreur bloquante "Problem with MergeList".
+J'ai eu la mauvaise surprise récemment en voulant installer un paquet sous Ubuntu d'obtenir une erreur bloquante "**Problem with MergeList**".
 
-<pre lang="sh">Reading package lists... Error!
+```sh
+Reading package lists... Error!
 E: Encountered a section with no Package: header
 E: Problem with MergeList /var/lib/apt/lists/ppa.launchpad.net_banshee-team_ppa_ubuntu_dists_trusty_main_i18n_Translation-en
-E: The package lists or status file could not be parsed or opened.</pre>
+E: The package lists or status file could not be parsed or opened.
+```
 
-De ce que j'ai compris, MergeList s'occupe de générer une liste de toutes les sources de dépôts de votre machine en prenant les sources dans <code>/etc/apt/sources.list</code> et celles définies dans le dossier <code>/etc/apt/sources.list.d/</code>, et un conflit est apparu. 
+De ce que j'ai compris, MergeList s'occupe de générer une liste de toutes les sources de dépôts de votre machine en prenant les sources dans `/etc/apt/sources.list` et celles définies dans le dossier `/etc/apt/sources.list.d/`, et un conflit est apparu. 
 
 Une solution simple consiste à supprimer les fichiers générés par MergeList (sans risque) et de les regénérer :
-https://gist.github.com/jlevallois/8f1b14be18893d2b4af5
+```sh
+#!/bin/sh
+ 
+# remove all mergelists (safe) and regenerate them
+sudo rm /var/lib/apt/lists/* -vf && sudo apt-get update
+```
 
-<strong>Testé sur :</strong> Linux Mint 17.1
+* * *
+
+**Testé sur** : Linux Mint 17.1
