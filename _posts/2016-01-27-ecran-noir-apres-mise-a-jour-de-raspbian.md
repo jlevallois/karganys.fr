@@ -15,8 +15,8 @@ permalink:
   - 'a:1:{i:0;s:8:"/?p=1096";}'
 published: true
 tc-thumb-fld:
-  - 'a:2:{i:0;s:64:"a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}";i:1;s:64:"a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}";}'
-  - 'a:2:{i:0;s:64:"a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}";i:1;s:64:"a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}";}'
+  - 'a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}'
+  - 'a:2:{s:9:"_thumb_id";s:4:"1134";s:11:"_thumb_type";s:5:"thumb";}'
 layout_key:
   - ""
 post_slider_check_key:
@@ -27,6 +27,8 @@ En ce moment je m'amuse avec mon [Raspberry Pi 2](https://www.raspberrypi.org/he
 ## Problème
 
 Après avoir mis à jour (`sudo apt-get update && sudo apt-get upgrade`) et redémarré Raspbian, aucun message d'erreur ne s'affiche pendant le démarrage mais l'écran reste noir avec le [curseur blanc](https://fr.wikipedia.org/wiki/Curseur_(interface)) qui clignote.
+
+<img src="http://www.karganys.fr/wp-content/uploads/2016/01/310621.jpg"  width="309" height="215" class="aligncenter size-full wp-image-1140" />
 
  Impossible de démarrer Raspbian.
 
