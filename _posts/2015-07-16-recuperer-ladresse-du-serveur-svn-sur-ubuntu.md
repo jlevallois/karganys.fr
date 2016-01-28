@@ -15,8 +15,14 @@ layout_key:
 post_slider_check_key:
   - "0"
 ---
-Vous utilisez déjà un serveur SVN pour versionner vos fichiers, mais vous ne vous rappelez plus de son adresse ? Vous pouvez facilement le récupérer grâce à la commande <pre lang="shell">svn info</pre> (à faire dans votre dossier versionné) :
+Vous utilisez déjà un serveur SVN pour versionner vos fichiers, mais vous ne vous rappelez plus de son adresse ? Vous pouvez facilement le récupérer grâce à la commande `svn info` (à faire dans votre dossier versionné) :
 
-https://gist.github.com/jlevallois/07ce3a6a06dd7b45400c
+```sh
+#!/bin/sh
 
-<strong>Testé sur :</strong> Linux Mint 17.1 et Subversion 1.8.8
+# In your SVN folder :
+svn info | grep 'URL' | awk '{print $NF}'
+```
+
+---
+**Testé sur :** Linux Mint 17.1 et Subversion 1.8.8
