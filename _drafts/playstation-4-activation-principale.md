@@ -1,15 +1,9 @@
 ---
-ID: 1096
-post_title: title template
+post_title: Résoudre "Impossible d'activer ce système en tant que PS4 principale"
 author:
   - Jérémy Levallois
-post_date: 2016-01-24 16:27:51
-post_excerpt: ""
 layout: post
-permalink: http://www.karganys.fr/?p=1096
 published: false
-tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
 ---
 
 Depuis ce matin, je ne peux plus lancer de jeu ni d'application sur ma Playstation 4.
