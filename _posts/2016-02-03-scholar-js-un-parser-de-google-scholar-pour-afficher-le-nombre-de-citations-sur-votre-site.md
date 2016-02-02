@@ -11,17 +11,11 @@ published: true
 tc-thumb-fld:
   - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
 ---
-Cela fait quelques temps que je m'intéresse aux bibliothèques JavaScript, assez
-incontournable en ce moment si vous vous intéressez au web. J'ai donc voulu
-mettre les mains dedans sachant que je partais d'une connaissance quasi nulle
-dans le domaine. Et j'ai fait ma première bibliothèque JavaScript.
+Cela fait quelques temps que je m'intéresse aux bibliothèques JavaScript, assez incontournable en ce moment si vous vous intéressez au web. J'ai donc voulu mettre les mains dedans sachant que je partais d'une connaissance quasi nulle dans le domaine. Et j'ai fait ma première bibliothèque JavaScript.
 
 # scholar.js
 
-Je ne trouvais pas de moyen d'afficher le nombre de citations pour mes
-publications sur le [site web de ma
-thèse](http://liris.cnrs.fr/jeremy.levallois/publications.html), Google Scholar
-ne disposant pas d'API.
+Je ne trouvais pas de moyen d'afficher le nombre de citations pour mes publications sur le [site web de ma thèse](http://liris.cnrs.fr/jeremy.levallois/publications.html), Google Scholar ne disposant pas d'API.
 
 Alors je l'ai créé, non sans mal (*merci jQuery de ne pas autoriser de récuperer des fichiers s'il n'est pas hébergé dans le domaine courant*).
 
@@ -30,28 +24,28 @@ Alors je l'ai créé, non sans mal (*merci jQuery de ne pas autoriser de récupe
 **scholar.js** vous permet d'afficher une compteur de citations sur votre site web, grâce à Google Scholar.
 
 ## Utilisation
-&gt; *Le tutoriel est pour la version 0.1.0, merci d'adapter le numéro de version en fonction des releases de scholar.js*
+> *Le tutoriel est pour la version 0.1.0, merci d'adapter le numéro de version en fonction des releases de scholar.js*
 
 - Télécharger scholar.js (la version minimifiée **scholar-0.1.0.min.js**) : [https://github.com/jlevallois/scholar.js/releases](https://github.com/jlevallois/scholar.js/releases)
 
 - Importer **jQuery** et **scholar.js** :
 
   ```html
-  
-  
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="js/scholar-0.1.0.min.js"></script>
   ```
 
   ou les charger directement depuis mon serveur kha.li :
 
   ```html
-  
-  
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="http://kha.li/dist/scholar/scholar-0.1.0.min.js"></script>
   ```
 
 - Ajouter des span (ou autre chose) lorsque vous voulez obtenir un compteur de citations :
 
   ```html
-  <span class="scholar"></span>
+  <span class="scholar" name="PUBLICATION-NAME" with-link="true"></span>
   ```
   Attributs:
   - `class="scholar"`: active le parser.
@@ -69,27 +63,29 @@ Alors je l'ai créé, non sans mal (*merci jQuery de ne pas autoriser de récupe
 ## Exemple
 
 ```html
-
-  
-    
-    
-  
-  
+<html>
+  <head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="http://kha.li/dist/scholar/scholar-0.1.0.min.js"></script>
+  </head>
+  <body>
     <p>Integral based Curvature Estimators in Digital Geometry -
-      <span class="scholar">
+      <span class="scholar"
+            name="Integral based Curvature Estimators in Digital Geometry"
+            with-link="true">
         <!-- ajouter une image de chargement ici -->
       </span>
     </p>
-    
+    <script type="text/javascript">
       Scholar.load("-BL0_2EAAAAJ");
-    
-  
-
+    </script>
+  </body>
+</html>
 ```
 
 ### Résultat
 
-&gt; Integral based Curvature Estimators in Digital Geometry - [12](https://scholar.google.fr/citations?view_op=view_citation&amp;hl=fr&amp;user=-BL0_2EAAAAJ&amp;citation_for_view=-BL0_2EAAAAJ:u5HHmVD_uO8C)
+> Integral based Curvature Estimators in Digital Geometry - [12](https://scholar.google.fr/citations?view_op=view_citation&amp;hl=fr&amp;user=-BL0_2EAAAAJ&amp;citation_for_view=-BL0_2EAAAAJ:u5HHmVD_uO8C)
 
 ## Exemples en ligne
 
