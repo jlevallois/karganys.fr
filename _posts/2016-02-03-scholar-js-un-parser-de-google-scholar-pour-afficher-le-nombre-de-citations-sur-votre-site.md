@@ -12,24 +12,11 @@ permalink: >
   http://www.karganys.fr/recherche/scholar-js-un-parser-de-google-scholar-pour-afficher-le-nombre-de-citations-sur-votre-site/
 published: true
 tc-thumb-fld:
-  - 'a:1:{i:0;s:63:"a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}";}'
+  - 'a:2:{s:9:"_thumb_id";s:4:"1157";s:11:"_thumb_type";s:5:"thumb";}'
 layout_key:
   - ""
 post_slider_check_key:
   - "0"
----
----
-ID: 1155
-post_title: 'scholar.js &#8211; un parser de Google Scholar pour afficher le nombre de citations sur votre site'
-author: Jérémy Levallois
-post_date: 2016-02-03 00:05:03
-post_excerpt: ""
-layout: post
-permalink: >
-  http://www.karganys.fr/recherche/scholar-js-un-parser-de-google-scholar-pour-afficher-le-nombre-de-citations-sur-votre-site/
-published: true
-tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
 ---
 Cela fait quelques temps que je m'intéresse aux bibliothèques JavaScript, assez incontournable en ce moment si vous vous intéressez au web. J'ai donc voulu mettre les mains dedans sachant que je partais d'une connaissance quasi nulle dans le domaine. Et j'ai fait ma première bibliothèque JavaScript.
 
