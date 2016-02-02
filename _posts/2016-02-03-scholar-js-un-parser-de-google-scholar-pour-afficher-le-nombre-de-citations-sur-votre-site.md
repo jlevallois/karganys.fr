@@ -1,5 +1,25 @@
 ---
 ID: 1155
+post_title: >
+  scholar.js – un parser de Google
+  Scholar pour afficher le nombre de
+  citations sur votre site
+author: Jérémy Levallois
+post_date: 2016-02-03 00:05:03
+post_excerpt: ""
+layout: post
+permalink: >
+  http://www.karganys.fr/recherche/scholar-js-un-parser-de-google-scholar-pour-afficher-le-nombre-de-citations-sur-votre-site/
+published: true
+tc-thumb-fld:
+  - 'a:1:{i:0;s:63:"a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}";}'
+layout_key:
+  - ""
+post_slider_check_key:
+  - "0"
+---
+---
+ID: 1155
 post_title: 'scholar.js &#8211; un parser de Google Scholar pour afficher le nombre de citations sur votre site'
 author: Jérémy Levallois
 post_date: 2016-02-03 00:05:03
