@@ -29,15 +29,15 @@ Si vous avez le même message d'erreur (les seules différences peuvent être le
 
 ## Solution
 
-### Identifier le repository
+### 1. Identifier le repository
 
 La première étape sera d'identifier le repository qui pose problème. Généralement, le lien (`http://repo.steampowered.com` dans mon cas) dans le message vous donne assez d'indication pour le déterminer.
 
-### Trouver la nouvelle clef publique
+### 2. Trouver la nouvelle clef publique
 
 Pour déterminer la nouvelle clef publique, il y a deux solutions : la plus simple et une plus compliquée.
 
-#### La solution simple
+#### 2.a La solution simple
 
 La solution la plus simple consiste à se rendre sur la page du repository. Supposons que votre problème vienne du repository de [Zeal](https://zealdocs.org/), rendez-vous sur la page du repository [https://launchpad.net/~jerzy-kozera/+archive/ubuntu/zeal-ppa](https://launchpad.net/~jerzy-kozera/+archive/ubuntu/zeal-ppa).
 
@@ -45,7 +45,7 @@ La nouvelle clef devrait y être présent. Sur les pages Launchpad.net, il faut 
 
 ![Clef publique repository](http://www.karganys.fr/wp-content/uploads/2016/02/Clef-publique-repository.png)
 
-#### La solution compliquée
+#### 2.b La solution compliquée
 
 Si jamais le fournisseur du repository ne diffuse pas clairement la clef publique du repository, vous pouvez toujours la chercher vous mettre sur le serveur de clefs d'Ubuntu : [http://keyserver.ubuntu.com/](http://keyserver.ubuntu.com/).
 
@@ -67,7 +67,7 @@ Dans **Search String**, rentrez le nom du repository (**steampowered** dans mon 
 
 Vous l'aurez deviné, cette solution est beaucoup plus compliquée, et nécessite un peu de recherche.
 
-### Utiliser la nouvelle clef
+### 3. Utiliser la nouvelle clef
 
 Une fois la clef récupérée, la suite est assez simple. Rentrez la commande suivante pour ajouter la nouvelle clef à votre liste de clefs (en changeant **VOTRENOUVELLECLEF** par la clef) :
 
