@@ -2,13 +2,18 @@
 ID: 1169
 post_title: '[GPG error] Résoudre l&rsquo;erreur &laquo;&nbsp;The following signatures couldn&rsquo;t be verified because the public key is not available&nbsp;&raquo;.'
 author: Jérémy Levallois
-post_date: 2016-02-09 14:56:19
+post_date: 2016-02-09 14:59:27
 post_excerpt: ""
 layout: post
-permalink: http://www.karganys.fr/?p=1169
-published: false
+permalink: >
+  http://www.karganys.fr/systemes-d-exploitation/ubuntu/gpg-error-resoudre-lerreur-the-following-signatures-couldnt-be-verified-because-the-public-key-is-not-available/
+published: true
 tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
+  - 'a:2:{s:9:"_thumb_id";s:4:"1171";s:11:"_thumb_type";s:5:"thumb";}'
+layout_key:
+  - ""
+post_slider_check_key:
+  - "0"
 ---
 ## Problème
 En mettant à jour mon Linux (`sudo apt-get update`), j'obtiens cette erreur :
