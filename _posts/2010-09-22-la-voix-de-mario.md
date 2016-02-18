@@ -16,7 +16,7 @@ tc-thumb-fld:
 
 Attention, moment épique !
 [http://www.lexpress.fr/](L'Express) a eu l'honneur et la chance de rencontrer Charles Martinet.
-Ouai, cool, vous allez me dire <small>"moi hier j'ai rencontré Roger le plombier et j'en fais pas tout une pizza"</small>
+Ouai, cool, vous allez me dire *"moi hier j'ai rencontré Roger le plombier et j'en fais pas tout une pizza"*
 Mais non ! Charles Martinet ! La personne qui fait la voix de Mario !
 Cet américain de 55 ans s'occupe des voix de Mario, Luigi, Wario, Waluigi, Baby Mario, Baby Luigi, Dr. Mario, Toadsworth (dans Mario Superstar Baseball), Orvus (dans Ratchet & Clank: A Crack in Time) et quelques autres.
 
