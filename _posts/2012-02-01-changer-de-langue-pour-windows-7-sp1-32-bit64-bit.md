@@ -43,8 +43,7 @@ Nous voilà enfin prêt pour démarrer le changement de langues.
 - Ouvrez exe2cab en mode administrateur (clic droit dessus &gt; Lancer en mode administrateur), sélectionnez le MUI que vous venez de télécharger ( **windows6.1-kb2483139-x64-en-us_9b9c8a867baff2920507fbf1e1b4a158572b9b87.exe** pour la version anglaise ), et enregistrez le .cab (renommez le **LP.cab** pour que ce soit plus simple par la suite).
 - Ouvrez l'invite de commande en mode administrateur : **Windows** &gt; **Tous les programmes** &gt; **Accessoires** &gt; Clic droit sur **Invite de Commande** &gt; **Lancer en mode administrateur**.
 - Dans un premier temps nous allons installer la langue :
-
-  ```dos
+  ```
   DISM /Online /Add-Package /PackagePath:C:\LP.cab
   ```
   (Changez **C:\LP.cab** par l'adresse où se situe le fichier **LP.cab** sur votre machine) et cliquez sur Entrer.
