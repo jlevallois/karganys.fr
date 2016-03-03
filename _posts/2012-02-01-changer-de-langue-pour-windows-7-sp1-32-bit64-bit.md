@@ -11,8 +11,8 @@ permalink: >
   http://www.karganys.fr/systemes-d-exploitation/windows-seven/changer-de-langue-pour-windows-7-sp1-32-bit64-bit/
 published: true
 tc-thumb-fld:
-  - 'a:1:{i:0;s:65:"a:2:{s:9:"_thumb_id";i:736;s:11:"_thumb_type";s:10:"attachment";}";}'
-  - 'a:1:{i:0;s:65:"a:2:{s:9:"_thumb_id";i:736;s:11:"_thumb_type";s:10:"attachment";}";}'
+  - 'a:2:{s:9:"_thumb_id";i:736;s:11:"_thumb_type";s:10:"attachment";}'
+  - 'a:2:{s:9:"_thumb_id";i:736;s:11:"_thumb_type";s:10:"attachment";}'
 layout_key:
   - ""
 post_slider_check_key:
@@ -44,9 +44,9 @@ Nous voilà enfin prêt pour démarrer le changement de langues.
 - Ouvrez l'invite de commande en mode administrateur : **Windows** &gt; **Tous les programmes** &gt; **Accessoires** &gt; Clic droit sur **Invite de Commande** &gt; **Lancer en mode administrateur**.
 - Dans un premier temps nous allons installer la langue :
   ```dos
-  DISM /Online /Add-Package /PackagePath:C:LP.cab
+  DISM /Online /Add-Package /PackagePath:C:\LP.cab
   ```
-  (Changez **C:LP.cab** par l'adresse où se situe le fichier **LP.cab** sur votre machine) et cliquez sur Entrer.
+  (Changez **C:\LP.cab** par l'adresse où se situe le fichier **LP.cab** sur votre machine) et cliquez sur Entrer.
   Si vous obtenez l'erreur **87** ou **0x80070057**, c'est que probablement votre .exe est corrompu, ou bien sa transformation en .cab a échouée.
 
 - Puis nous allons changer la langue par défaut de Windows 7 :
