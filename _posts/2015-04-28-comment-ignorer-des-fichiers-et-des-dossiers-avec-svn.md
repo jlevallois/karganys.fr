@@ -12,26 +12,39 @@ permalink: >
 published: true
 tc-thumb-fld:
   - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
+  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
 layout_key:
+  - ""
   - ""
 post_slider_check_key:
   - "0"
+  - "0"
 ---
-Vous pouvez facilement ignorer des fichiers et des dossiers avec Subversion localement à un dépôt, soit en utilisant un pattern (<code>*.txt</code> par exemple), soit en spécifiant le fichier à ignorer (<code>file1.txt</code>)
+Vous pouvez facilement ignorer des fichiers et des dossiers avec Subversion localement à un dépôt, soit en utilisant un pattern (<code>*.txt</code> par exemple), soit en spécifiant le fichier à ignorer (`file1.txt`)
 
 Vous devez vous déplacer dans le dossier dans lequel vous voulez ignorer des fichiers/dossiers.
-La commande suivante va spécifier les fichiers et dossiers à ignorer localement au dossier courant (le dossier doit être versionné). Vous pouvez spécifier un sous-dossier en changeant le <code>.</code> par son nom.
-https://gist.github.com/jlevallois/5cf4b824d61f0cc4eb3f
+La commande suivante va spécifier les fichiers et dossiers à ignorer localement au dossier courant (le dossier doit être versionné). Vous pouvez spécifier un sous-dossier en changeant le `.` par son nom.
+
+```bash
+#!/bin/sh
+
+# edit SVN ignore list for current folder
+svn propedit svn:ignore .
+```
+
 Une fenêtre nano va s'ouvrir dans laquelle vous pourrez spécifier les filtres des fichiers/dossiers à ignorer.
 Si nous ajoutons ces filtres :
-<code>*.txt</code>
-<code>folder1</code>
-<code>main.pdf</code>
-<code>*.log</code>
-tous les fichiers <code>txt</code>, le dossier <code>folder1</code>, le fichier <code>main.pdf</code> et tous les fichiers <code>.log</code> seront désormais ignorés par Subversion.
+```
+*.txt
+folder1
+main.pdf
+*.log
+```
+tous les fichiers `txt, le dossier `folder1`, le fichier `main.pdf et tous les fichiers `.log` seront désormais ignorés par Subversion.
 
-Sauvegardez (<code>CTRL+X</code> et répondez <code>Y</code> pour sauvegarder), et n'oubliez pas de commiter les changements.
+Sauvegardez (`CTRL+X` et répondez `Y` pour sauvegarder), et n'oubliez pas de commiter les changements.
 
 
+* * * 
 
-<strong>Testé avec :</strong> Subversion 1.8.8 et Ubuntu 14.10
+**Testé avec :** Subversion 1.8.8 et Ubuntu 14.10
