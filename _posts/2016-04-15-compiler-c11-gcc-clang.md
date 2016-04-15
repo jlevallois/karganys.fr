@@ -2,13 +2,18 @@
 ID: 1195
 post_title: Compiler en C++11 avec GCC ou Clang
 author: Jérémy Levallois
-post_date: 2016-04-15 14:56:41
+post_date: 2016-04-15 15:00:27
 post_excerpt: ""
 layout: post
-permalink: http://www.karganys.fr/?p=1195
-published: false
+permalink: >
+  http://www.karganys.fr/programmation/c-cpp/compiler-c11-gcc-clang/
+published: true
 tc-thumb-fld:
-  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
+  - 'a:2:{s:9:"_thumb_id";s:4:"1197";s:11:"_thumb_type";s:5:"thumb";}'
+layout_key:
+  - ""
+post_slider_check_key:
+  - "0"
 ---
 ## Problème
 
@@ -69,4 +74,4 @@ ou
 ```sh
 clang++ -std=c++11 test.cpp -o test
 ```
-compilent votre fichier.
+compileront votre fichier.
