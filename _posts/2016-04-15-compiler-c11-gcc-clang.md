@@ -48,9 +48,9 @@ et vous obtiendrez :
 ```sh
 test.cpp: In function ‘int main(int, char**)’:
 test.cpp:6:48: error: in C++98 ‘v’ must be initialized by constructor, not by ‘{...}’
-   std::vector v = { "a", "b", "c" };
+   std::vector<std::string> v = { "a", "b", "c" };
                                                 ^
-test.cpp:6:48: error: could not convert ‘{"a", "b", "c"}’ from ‘’ to ‘std::vector&lt;std::basic_string &gt;’
+test.cpp:6:48: error: could not convert ‘{"a", "b", "c"}’ from ‘<brace-enclosed initializer list>’ to ‘std::vector<std::basic_string<char> >’
 ```
 
 ou
