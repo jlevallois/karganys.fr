@@ -21,8 +21,8 @@ Prenons par exemple ce code utilisant des fonctionnalités définis dans la norm
 
 ```c
 // test.cpp
-#include 
-#include 
+#include <vector>
+#include <string>
 
 int main(int argc, char** argv)
 {
