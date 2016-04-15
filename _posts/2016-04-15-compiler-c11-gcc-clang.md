@@ -56,8 +56,8 @@ test.cpp:6:48: error: could not convert ‘{"a", "b", "c"}’ from ‘<brace-enc
 ou
 
 ```sh
-test.cpp:6:28: error: non-aggregate type 'std::vector' cannot be initialized with an initializer list
-  std::vector v = { "a", "b", "c" };
+test.cpp:6:28: error: non-aggregate type 'std::vector<std::string>' cannot be initialized with an initializer list
+  std::vector<std::string> v = { "a", "b", "c" };
                            ^   ~~~~~~~~~~~~~~~~~
 1 error generated.
 ```
