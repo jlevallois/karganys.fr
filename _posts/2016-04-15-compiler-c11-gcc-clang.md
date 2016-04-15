@@ -19,7 +19,7 @@ post_slider_check_key:
 
 Prenons par exemple ce code utilisant des fonctionnalités définis dans la norme C++11 :
 
-```cpp
+```c
 // test.cpp
 #include 
 #include 
