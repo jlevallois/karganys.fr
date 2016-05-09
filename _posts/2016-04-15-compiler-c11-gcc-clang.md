@@ -26,7 +26,7 @@ Prenons par exemple ce code utilisant des fonctionnalités définis dans la norm
 
 int main(int argc, char** argv)
 {
-  std::vector v = { "a", "b", "c" };
+  std::vector<std::string> v = { "a", "b", "c" };
 
   return 0;
 }
