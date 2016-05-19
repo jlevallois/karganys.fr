@@ -12,9 +12,12 @@ permalink: >
 published: true
 tc-thumb-fld:
   - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
+  - 'a:2:{s:9:"_thumb_id";b:0;s:11:"_thumb_type";s:10:"attachment";}'
 layout_key:
   - ""
+  - ""
 post_slider_check_key:
+  - "0"
   - "0"
 ---
 Je cherchais comment compresser un article assez volumineux pour une soumission (d'ailleurs, dédicace au site de soumission de Elsevier qui ne mentionne pas de limite de poids pour <del datetime="2015-04-24T12:19:32+00:00">l'uploade</del> téléversement (lol) et se contente d'envoyer un mail marqué "Error.").
@@ -24,19 +27,7 @@ Nous allons utiliser Ghostscript (`sudo apt-get install ghostscript` sous Ubuntu
 ```sh
 #!/bin/sh
 
-# -dPDFSETTINGS=/screen – selects low-resolution output.
-# -dPDFSETTINGS=/ebook – selects medium-resolution output.
-# -dPDFSETTINGS=/printer – selects high-resolution output.
-# -dPDFSETTINGS=/prepress – selects very high resolution output.
-# -dPDFSETTINGS=/default – selects output intended to
-#                          be useful across a wide variety
-#                          of uses, possibly at the expense
-#                          of a larger output file.
-
-gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 \
--dPDFSETTINGS=/default \
--dNOPAUSE -dQUIET -dBATCH -dUseCIEColor \
--sOutputFile=output.pdf input.pdf
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dPDFSETTINGS=/default -dNOPAUSE -dQUIET -dBATCH -dUseCIEColor -sOutputFile=output.pdf input.pdf
 ```
 
 Vous pouvez jouer avec le paramètre `-dPDFSETTINGS` pour le résultat final (de celui qui compresse le plus à celui qui compresse le moins) :
@@ -49,7 +40,7 @@ Vous pouvez jouer avec le paramètre `-dPDFSETTINGS` pour le résultat final (de
 
 Dans mon exemple, mon fichier PDF pesait 120Mo avant compression, et comportait beaucoup d'images HD assez volumineuses.
 
-| Paramètre  | Poids (en Mo)  | Taux de compression <br/>(plus c'est proche de 0, mieux c'est) |
+| Paramètre  | Poids (en Mo)  | Taux de compression <br />(plus c'est proche de 0, mieux c'est) |
 | :------------ |:-----:| -----------:|
 | Non compressé | 127.9 | 1           |
 | /screen       | 0.469 | 0.003666927 |
