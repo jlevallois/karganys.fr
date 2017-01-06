@@ -43,7 +43,7 @@ Simply by using the macro <strong>UNREFERENCED_PARAMETER()</strong>.
 
 
 PS: If you have the error : "<strong>Error	2	error C3861: 'UNREFERENCED_PARAMETER': identifier not found</strong>", just add this #define into your project :
-<pre lang="c++">#define UNREFERENCED_PARAMETER	( P ) 	   (void)(P)</pre>
+<pre lang="c++">#define UNREFERENCED_PARAMETER( P ) 	   (void)(P)</pre>
 
 
 PS2 : The default warning level in Visual Studio is Warning Level 3, but I recommend you to use Warning Level 4 for your projects, because it's the more strict compilation level and allow you to track any mistakes, as MSDN says :
